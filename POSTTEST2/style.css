@@ -1,0 +1,259 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header and navigation bar */
+header {
+    background-color: #fa6604;
+    color: #fff;
+    padding: 20px 0;
+    background-size: cover;
+}
+
+.hd{
+    text-align: center;
+    color: #fd6f23;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Styling the hero section with background image */
+.hero {
+    background-image: url('dessert.jpeg'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 170px 0;
+    color: #faf7f6;
+    background-position: 100px;
+
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #d13f1d;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer {
+    background-color: #fe6608; 
+    color: #fff;
+    text-align: end;
+    padding: 5px; 
+    position:sticky; 
+    width: 100%; 
+    bottom: 0; 
+}
+
+
+.footer p {
+    margin: 0;
+}
+
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead {
+padding: 6em 0;
+background-size: cover;
+background-repeat: no-repeat;
+border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  color: #F1C863;
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+.photo-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0 ;
+}
+section > h1 {
+  margin-top: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead {
+padding: 6em 0;
+background-size: cover;
+background-repeat: no-repeat;
+border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+margin-bottom: 0.1em;
+font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+margin-top: -0.2em;
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+font-weight: bold;
+font-size: 6em;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.content-footer {
+margin: 50px 0;
+padding: 20px 0;
+text-align: center;
+background-color: #73A8C2;
+text-decoration: none;
+}
+.social > li {
+display: inline-block;
+margin: 0 5px;
+}
+.content-footer > p {
+color: #F7EDE1;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #F1C863;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+      padding: 3em 0;
+  }
+  .masthead-heading {
+      font-size: 3em;
+  }
+  .content-footer {
+      padding: 2em 2.5em;
+}
+}
+img{
+  max-width:24%; 
+  max-height :15%;
+  height: fit-content; 
+  width: fit-content;
+}
